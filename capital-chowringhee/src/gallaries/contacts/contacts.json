@@ -7,18 +7,11 @@
         "image":"Kamalika-Roy"
     },
     {
-        "name":"Pulak Das",
-        "designation":"Sales manager",
-        "mobile":"9831238615",
-        "email":"",
-        "image":"Pulak-Das"
-    },
-    {
-        "name":"Tapashi Chakraborty",
+        "name":"Soma Chakraborty",
         "designation":"Canon product consultant",
-        "mobile":"7980331281",
+        "mobile":"8777399268",
         "email":"",
-        "image":"Tapashi-Chakraborty"
+        "image":"Soma-Chakraborty"
     },
     {
         "name":"Samar Das",
@@ -26,13 +19,6 @@
         "mobile":"9903177904",
         "email":"",
         "image":"Samar-Das"
-    },
-    {
-        "name":"Kinkar Dutta",
-        "designation":"Sales consultant",
-        "mobile":"9007321213",
-        "email":"",
-        "image":"Kinkar-Dutta"
     },
     {
         "name":"Radha Joshi",
