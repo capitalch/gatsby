@@ -44,6 +44,7 @@ const Header = () => {
 			<div className={styles.brandName}>
 				Capital Chowringhee Pvt. Ltd.
 			</div>
+
 		</div>
 	);
 };

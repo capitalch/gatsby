@@ -128,10 +128,10 @@ function useGallary(source: string, type = 'fixed') {
   const allImagesFixed = {}, allImagesFluid = {};
   allData[source].edges.forEach(x => {
     if (type === 'fixed') {
-      allImagesFixed[x.node.name] = x.node.childImageSharp.fixed;
+      allImagesFixed[x.node.name] = x?.node?.childImageSharp?.fixed || null
     }
     else {
-      allImagesFluid[x.node.name] = x.node.childImageSharp.fluid;
+      allImagesFluid[x.node.name] = x?.node?.childImageSharp?.fluid;
     }
   })
   return { allImagesFixed, allImagesFluid };

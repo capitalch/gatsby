@@ -41,8 +41,8 @@ function imageProcessor(source: string, type: string) {
     const data = useStaticQuery(gql);
   
   return type == "fluid" ? 
-    <Img key={source} fluid={data[source].childImageSharp.fluid}></Img> : 
-    <Img key={source} fixed={data[source].childImageSharp.fixed}></Img> 
+    <Img key={source} fluid={data[source]?.childImageSharp?.fluid}></Img> : 
+    <Img key={source} fixed={data[source]?.childImageSharp?.fixed}></Img> 
   // return <Img key={source} fluid={data[source].childImageSharp.fluid}></Img>
 }
 
