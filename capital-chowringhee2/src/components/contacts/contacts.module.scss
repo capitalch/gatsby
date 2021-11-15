@@ -1,0 +1,105 @@
+.contactContainer{
+    padding: 1rem 4rem 0 4rem;
+    .contactDetailsForm {
+        .contactDetails{
+            float:left;
+            width: 450px;
+            border: .5px solid black;
+            padding: .9rem;
+            height: 340px;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            .details {
+                div {
+                    padding: .56rem 0 1rem 0;
+                    font-size: 1.1em;
+                    span {
+                        font-weight: bold; 
+                    }
+                }
+            }
+            iframe {
+                width: 98%;
+                height: 140px;
+            }
+        }
+        .contactForm{
+            width:500px;
+            border: .5px solid black;
+            float: left;
+            height: 340px;
+            padding: .9rem;
+            margin-bottom: 1rem;
+            .contactTable {
+                width: 100%;
+                height: 21rem;
+                td {
+                  text-align: center;
+                }
+                input {
+                  height: 1.4rem;
+                  width: 14rem;
+                }
+                textarea {
+                  width: 14rem;
+                  height: 9rem;
+                }
+            }
+        }
+    }
+    .contactPersons {
+        float:left;
+        .employeeContainer{
+            box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+            width: 500px;
+            height: 200px;
+            float: left;
+            margin: 1rem .4rem;
+            .image{
+                float:left;
+                padding: 10px 40px 10px 10px;
+            }
+            .content {
+                padding: 10px;
+                font-weight: bold;
+                div{
+                    margin: 1rem 0
+                }
+            }
+        }
+    }
+}
+
+.highlight {
+    color:red
+}
+.notes {
+    float: right;
+    font-size: .8rem;
+    padding-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .contact{
+//     grid-area: "main";
+//     display: grid;
+//     grid-template-columns: repeat(auto-fill, 600px);
+//     grid-gap: 2rem;
+//     padding:2rem;
+//     background-color: cornsilk;
+//     justify-content: center;
+//     max-height:88vh;
+//     overflow-y: scroll;
+// }

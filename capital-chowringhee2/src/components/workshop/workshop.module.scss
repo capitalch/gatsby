@@ -1,0 +1,9 @@
+.workshop {
+    grid-area: main;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 480px);
+    grid-gap: 3rem;
+    padding:1rem;
+    justify-content: center;
+}

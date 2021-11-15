@@ -1,0 +1,45 @@
+[
+    {
+        "name":"Kamalika Roy",
+        "designation":"Public Relation Officer (Director)",
+        "mobile":"9163055161",
+        "email":"",
+        "image":"Kamalika-Roy"
+    },
+    {
+        "name":"Soma Chakraborty",
+        "designation":"Canon product consultant",
+        "mobile":"8777399268",
+        "email":"",
+        "image":"Soma-Chakraborty"
+    },
+    {
+        "name":"Samar Das",
+        "designation":"Nikon product consultant",
+        "mobile":"9903177904",
+        "email":"",
+        "image":"Samar-Das"
+    },
+    {
+        "name":"Radha Joshi",
+        "designation":"Casio service manager",
+        "mobile":"9831709175",
+        "email":"",
+        "image":"Radha-Joshi"
+    },
+    {
+        "name":"Abhishek Agarwal",
+        "designation":"Nikon service manager",
+        "mobile":"9836561707",
+        "email":"",
+        "image":"Abhishek-Agarwal"
+    },
+    {
+        "name":"Subrata Sen",
+        "designation":"Operations manager",
+        "mobile":"9831413723",
+        "email":"",
+        "image":"Subrata-Sen"
+    }
+
+]

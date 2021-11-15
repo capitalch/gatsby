@@ -1,0 +1,24 @@
+.serviceContainer {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 1rem 4rem;
+}
+
+.brand {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-template-rows: auto;
+}
+
+.center {
+  padding: 0.5rem;
+  border: 1px inset rgb(221, 210, 210) ;
+  
+}
+
+.heading {
+  color: blue;
+  margin: 0.5rem;
+}

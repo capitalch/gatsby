@@ -1,0 +1,48 @@
+.main {
+  grid-area: main;
+  background-color: white;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, 500px);
+  padding: 0 2rem;
+}
+.product {
+  display: grid;
+  // grid-gap: 2px;
+  grid-template-columns: 270px 1fr; // picture is of 250px width
+  grid-template-rows: minmax(190px, auto);
+  grid-template-areas: "picture details";
+  border-top: 1px outset rgb(151, 138, 138);
+}
+.picture {
+  grid-area: picture;
+  margin: auto; // to place the image at center
+}
+
+.details {
+  grid-area: details;
+  margin-top:1rem;
+  // margin: 1rem;
+}
+
+.heading {
+  margin-left: 2rem;
+}
+
+.offerPrice {
+  color: maroon;
+  font-size: 1.2rem;
+}
+
+.mrp {
+  margin-left: 0.25rem;
+}
+
+.save {
+  margin-left: 0.5rem;
+}
+
+svg{
+  width: 11px !important;
+  height: 18px !important;
+}

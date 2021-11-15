@@ -19,5 +19,19 @@
         "mobile":"9007321213",
         "email":"",
         "image":"Kinkar-Dutta"
+    },
+    {
+        "name":"Radha Joshi",
+        "designation":"Casio service manager",
+        "mobile":"9831709175",
+        "email":"",
+        "image":"Radha-Joshi"
+    },
+    {
+        "name":"Abhishek Agarwal",
+        "designation":"Nikon service manager",
+        "mobile":"9836561707",
+        "email":"",
+        "image":"Abhishek-Agarwal"
     }
 ]
