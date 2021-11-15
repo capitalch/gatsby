@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://www.capital-chowringhee.com/sitemap.xml
-Host: https://www.capital-chowringhee.com
