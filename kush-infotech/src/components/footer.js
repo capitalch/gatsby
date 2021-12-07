@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { StaticQuery, graphql } from "gatsby";
-import footerStyles from "./footer.module.scss";
+import * as footerStyles from "./footer.module.scss";
 import fetch from 'isomorphic-unfetch';
 import settings from '../assets/settings.json';
 
