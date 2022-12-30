@@ -13,7 +13,7 @@
   },
   "peerDependencies": {
     "dotenv": "^6.2.0",
-    "gatsby": "^2.2.0-alpha.6",
+    "gatsby": "^2.32.13",
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
@@ -61,7 +61,7 @@
   },
   "devDependencies": {
     "dotenv": "^8.0.0",
-    "gatsby": "^2.2.0-alpha.6",
+    "gatsby": "^2.32.13",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "semantic-release": "^15.13.3",
